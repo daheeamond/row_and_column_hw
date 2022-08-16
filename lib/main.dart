@@ -13,10 +13,38 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-
+          color: Colors.black,
+          child: Column(
+            children: [
+              Row(
+               mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.red,
+                  ),
+                  Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.orange,
+                  ),
+                  Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.yellow,
+                  ),
+                  Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.green,
+                  ),
+                ],
+              )
+            ],
+          ),
         ),
-
-    ),
+      ),
     );
   }
 }
